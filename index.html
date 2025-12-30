@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ONEDERZ Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Restaurant Header -->
+        <header>
+            <div class="restaurant-logo">
+                <div class="logo-circle">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h1>ONEDERZ</h1>
+                <p class="restaurant-subtitle">RESTAURANT & BAR</p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">
+                    <i class="fas fa-bars"></i>
+                    <span>All Menu</span>
+                </button>
+                <button class="category-btn" data-category="light">
+                    <i class="fas fa-apple-alt"></i>
+                    <span>Light Bite</span>
+                </button>
+                <button class="category-btn" data-category="salad">
+                    <i class="fas fa-leaf"></i>
+                    <span>Salad/Soup</span>
+                </button>
+                <button class="category-btn" data-category="asian">
+                    <i class="fas fa-utensil-spoon"></i>
+                    <span>Asian</span>
+                </button>
+                <button class="category-btn" data-category="japanese">
+                    <i class="fas fa-fish"></i>
+                    <span>Japanese</span>
+                </button>
+                <button class="category-btn" data-category="burger">
+                    <i class="fas fa-hamburger"></i>
+                    <span>Burger</span>
+                </button>
+                <button class="category-btn" data-category="pizza">
+                    <i class="fas fa-pizza-slice"></i>
+                    <span>Pizza/Pasta</span>
+                </button>
+                <button class="category-btn" data-category="special">
+                    <i class="fas fa-star"></i>
+                    <span>Special</span>
+                </button>
+                <button class="category-btn" data-category="snack">
+                    <i class="fas fa-pepper-hot"></i>
+                    <span>Snacks</span>
+                </button>
+                <button class="category-btn" data-category="dessert">
+                    <i class="fas fa-ice-cream"></i>
+                    <span>Dessert</span>
+                </button>
+                <button class="category-btn" data-category="drinks">
+                    <i class="fas fa-cocktail"></i>
+                    <span>Drinks</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Menu Gallery -->
+        <main>
+            <div class="menu-gallery" id="menu-gallery">
+                <!-- Images will be loaded here -->
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading menu...</p>
+            </div>
+        </main>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <button class="action-btn call-btn" id="call-btn">
+                <i class="fas fa-phone"></i>
+            </button>
+            <button class="action-btn location-btn" id="location-btn">
+                <i class="fas fa-map-marker-alt"></i>
+            </button>
+            <button class="action-btn scroll-top-btn" id="scroll-top-btn">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p class="restaurant-info">
+                    <i class="fas fa-clock"></i> Open Daily: 7AM - 11PM
+                </p>
+                <p class="instructions">
+                    <i class="fas fa-hand-point-up"></i> Tap images to zoom • 
+                    <i class="fas fa-mouse-pointer"></i> Swipe to browse
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Image Zoom Modal -->
+    <div class="zoom-modal" id="zoom-modal">
+        <div class="modal-header">
+            <span id="modal-title">Menu Item</span>
+            <button class="close-btn" id="close-modal">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img id="zoomed-image" src="" alt="Menu Image">
+        </div>
+        <div class="modal-footer">
+            <button class="nav-btn prev-btn" id="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <span id="image-counter">1/12</span>
+            <button class="nav-btn next-btn" id="next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
