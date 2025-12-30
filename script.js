@@ -3,101 +3,129 @@ document.addEventListener('DOMContentLoaded', function() {
     const MENU_IMAGES = [
         {
             id: 1,
-            filename: "photo_6235508120079764521_y.jpg",
+            filename: "1.jpg",
             category: "light",
             title: "Light Bite - Snacks",
             order: 1
         },
         {
             id: 2,
-            filename: "photo_6235508120079764520_y.jpg",
+            filename: "2.jpg",
             category: "light",
             title: "Light Bite - Appetizers",
             order: 2
         },
         {
             id: 3,
-            filename: "photo_6235508120079764523_y.jpg",
+            filename: "3.jpg",
             category: "salad",
             title: "Salad & Soup",
             order: 3
         },
         {
             id: 4,
-            filename: "photo_6235508120079764522_y.jpg",
+            filename: "4.jpg",
             category: "asian",
             title: "Khmer/Asian - Main Dishes",
             order: 4
         },
         {
             id: 5,
-            filename: "photo_6235508120079764524_y.jpg",
+            filename: "5.jpg",
             category: "asian",
             title: "Khmer/Asian - Rice & Noodles",
             order: 5
         },
         {
             id: 6,
-            filename: "photo_6235508120079764525_y.jpg",
+            filename: "6.jpg",
             category: "japanese",
             title: "Japanese",
             order: 6
         },
         {
             id: 7,
-            filename: "photo_6235508120079764526_y.jpg",
+            filename: "7.jpg",
             category: "burger",
             title: "Burgers & Sandwiches",
             order: 7
         },
         {
             id: 8,
-            filename: "photo_6235508120079764527_y.jpg",
+            filename: "8.jpg",
             category: "pizza",
             title: "Pizza & Pasta",
             order: 8
         },
         {
             id: 9,
-            filename: "photo_6235508120079764528_y.jpg",
-            category: "special",
-            title: "Special Dishes",
+            filename: "9.jpg",
+            category: "pizza",
+            title: "Pizza & Pasta",
             order: 9
         },
         {
             id: 10,
-            filename: "photo_6235508120079764529_y.jpg",
-            category: "snack",
-            title: "Khmer Snacks",
+            filename: "10.jpg",
+            category: "special",
+            title: "Special Dishes",
             order: 10
         },
         {
             id: 11,
-            filename: "photo_6235508120079764530_y.jpg",
-            category: "dessert",
-            title: "Desserts",
+            filename: "11.jpg",
+            category: "snack",
+            title: "Khmer Snacks",
             order: 11
         },
         {
             id: 12,
-            filename: "photo_6242374020439411944_y.jpg",
-            category: "drinks",
-            title: "ONEDERZ Liquors",
+            filename: "12.jpg",
+            category: "dessert",
+            title: "Desserts",
             order: 12
         },
         {
             id: 13,
-            filename: "photo_6242374020439411945_w.jpg",
+            filename: "13.jpg",
             category: "drinks",
-            title: "ONEDERZ Cocktails",
+            title: "ONEDERZ Liquors",
             order: 13
         },
         {
             id: 14,
-            filename: "photo_6242374020439411946_y.jpg",
+            filename: "14.jpg",
+            category: "drinks",
+            title: "ONEDERZ Liquors",
+            order: 14
+        },
+        {
+            id: 15,
+            filename: "15.jpg",
+            category: "drinks",
+            title: "ONEDERZ Cocktails",
+            order: 15
+        },
+        {
+            id: 16,
+            filename: "16.jpg",
+            category: "drinks",
+            title: "ONEDERZ Cocktails",
+            order: 16
+        },
+        {
+            id: 17,
+            filename: "17.jpg",
             category: "drinks",
             title: "Signature Wines",
-            order: 14
+            order: 17
+        },
+        {
+            id: 18,
+            filename: "18.jpg",
+            category: "drinks",
+            title: "Signature Wines",
+            order: 18
         }
     ];
 
